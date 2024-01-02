@@ -1,6 +1,5 @@
-$(document).ready(function() {
-    // حذف الفيديو من سجل المشاهدة عندما يُضغط على إشارة الخطأ الموجودة في الزاوية
+$(document).ready(function () {
     $(".remove").click(function () {
-        $(this).parents('.card').hide(); 
+        $(this).parents(".card").hide();
     });
 });
